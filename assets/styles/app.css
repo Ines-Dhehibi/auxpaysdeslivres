@@ -52,7 +52,32 @@ fieldset legend {
     transform: translate(-50%, -50%);
 }
 
-.carousel-inner .carousel-item h3 #ecriture {
-    text-shadow: rgb(198, 0, 0) 1px 0 10px;
-    color: blue;
+.carousel-inner .carousel-item h3 {
+    text-shadow: rgb(0, 0, 0) 1px 0 10px;
+    color: white;
 }
+
+
+/****************************PRODUIT************************/
+
+#my-button {
+    background-color: #9B3E32;
+    color: white;
+}
+
+.fa-shield {
+    color:#626262;
+}
+
+.repay {
+    color: #626262;
+    font-style: italic;
+}
+
+.fa-star {
+    color: orange;
+}
+.total {
+    color: #626262;
+}
+
