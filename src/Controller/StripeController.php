@@ -17,7 +17,7 @@ class StripeController extends AbstractController
     #[Route('/commande/create-session/{ref}', name: 'stripe_create_session')]
     public function index(EntityManagerInterface $em, Cart $cart, $ref): JsonResponse
     {
-        $YOUR_DOMAIN = 'http://127.0.0.1:8000';
+        $YOUR_DOMAIN = 'http://127.0.0.1:8000'; //nom de domaine
         $productsForStripe = [];
 
         $order = $em->getRepository(Order::class)->findOneByRef(['ref' => $ref]);

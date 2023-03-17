@@ -10,6 +10,7 @@ use App\Entity\Category;
 use App\Entity\SiteInfos;
 use Symfony\Component\HttpFoundation\Response;
 use App\Controller\Admin\ProductCrudController;
+use App\Entity\About;
 use Symfony\Component\Routing\Annotation\Route;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Crud;
 use EasyCorp\Bundle\EasyAdminBundle\Config\Action;
@@ -108,6 +109,7 @@ class DashboardController extends AbstractDashboardController
 
         yield MenuItem::section('Gestion infos du site');
         yield MenuItem::linkToCrud('site infos', 'fas fa-info', SiteInfos::class);
+        yield MenuItem::linkToCrud('Contenu', 'fas fa-edit', About::class);
 
     }
 

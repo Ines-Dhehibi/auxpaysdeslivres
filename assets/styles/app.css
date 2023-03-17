@@ -81,3 +81,13 @@ fieldset legend {
     color: #626262;
 }
 
+footer .w3-right i .fa-arrow-up:hover {
+    color:red;
+    border: 1px solid red;
+}
+
+/**************************BOUTIQUE**************************/
+
+.caddie i {
+    color: brown;
+}
